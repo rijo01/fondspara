@@ -1,8 +1,8 @@
-@tailwind base;
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap');
+
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 :root {
   --font-display: 'Sora', sans-serif;
@@ -26,7 +26,6 @@ h1, h2, h3, h4 {
   font-family: var(--font-display);
 }
 
-/* Prose styling for MDX content */
 .prose h2 {
   font-family: var(--font-display);
   font-size: 1.5rem;
