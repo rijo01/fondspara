@@ -77,7 +77,11 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-gray-500">© {new Date().getFullYear()} Fondspara.se – Alla rättigheter förbehållna</p>
-          <p className="text-xs text-gray-500">Inte finansiell rådgivning. Läs mer i vår <Link href="/integritetspolicy" className="underline hover:text-gray-300">integritetspolicy</Link>.</p>
+          <p className="text-xs text-gray-500">
+            <a href="https://www.infofinder.se/redovisning/stockholm" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-300">Hitta redovisningsbyråer på InfoFinder</a>
+            {" · "}
+            Inte finansiell rådgivning. Läs mer i vår <Link href="/integritetspolicy" className="underline hover:text-gray-300">integritetspolicy</Link>.
+          </p>
         </div>
       </div>
     </footer>
